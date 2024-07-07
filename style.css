@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("https://picsum.photos/1600/900");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+section {
+  padding: 20px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  margin: 30px 0;
+  display: flex;
+  gap: 40px;
+}
+button {
+  padding: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  transition: opacity 0.5s ease-in-out;
+}
+button:hover {
+  opacity: 0.7;
+}
+
+#rock {
+  background-color: #d90404;
+}
+#paper {
+  background-color: #0476d9;
+}
+#tesoura {
+  background-color: #f2c641;
+}
+p{
+font-weight: bold;
+margin-bottom: 10px;
+}
+.sua-pontuaçao span{
+color: green;
+
+}
+
+.potuaçao-mac span {
+color: #d90404;
+
+
+
+}
